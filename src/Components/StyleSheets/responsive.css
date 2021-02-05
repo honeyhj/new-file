@@ -1,0 +1,190 @@
+/*=====RESPONSIVE DESIGN !=====*/
+
+/*=====5000 px=====*/
+@media screen and (max-width: 5000px) {
+    .tie {
+        width: 1280px;
+        margin: auto;
+    }
+}
+
+/*=====1280 px=====*/
+@media screen and (max-width: 1280px) {
+    .tie {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
+
+/*=====1140 px=====*/
+@media screen and (max-width: 1140.98px) {
+    #repair .repair-wrapper{
+        grid-auto-rows: 400px;
+    }
+}
+
+/*=====1024 px=====*/
+@media screen and (max-width: 1024.98px) {}
+
+/*=====991 px=====*/
+@media screen and (max-width: 991.98px) {
+    #navbar .navbar-wrapper{
+        display: grid;
+        grid-template-columns: 250px auto;
+        grid-auto-rows: 20px;
+        padding: 10px 0;
+    }
+    #navbar .navbar-wrapper .menus{
+        display: none;
+    }
+    #navbar .navbar-wrapper .bar-icon{
+        display: block;
+    }
+    #navbar .navbar-wrapper .mobile-menus{
+        display: block;
+        z-index: 5;
+    }
+    #services .services-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px;
+    }
+}
+
+/*=====890 px=====*/
+@media screen and (max-width: 890.98px) {
+    #experiences .experiences-wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 50px 0px;
+    }
+    #aboutOur .aboutOur-wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+    #repair .repair-wrapper{
+        grid-template-columns: 1fr;
+        grid-gap: 25px;
+    }
+    #repair .repair-wrapper .extra{
+        margin-top: 30px;
+    }
+}
+
+/*=====840 px=====*/
+@media screen and (max-width: 840.98px) {
+    #mainSlider .mainSlider-wrapper {
+        height: 430px;
+    }
+}
+
+/*=====768 px=====*/
+@media screen and (max-width: 768.98px) {}
+
+/*=====680 px=====*/
+@media screen and (max-width: 680.98px) {
+    #services .services-wrapper{
+        grid-template-columns: 1fr;
+    }
+    #services .services-item{
+        grid-template-columns: 1fr;
+    }
+    #services .services-item .img-box{
+        width: 13%;
+        margin: auto;
+    }
+    #services .services-item .info-box{
+        text-align: center;
+    }
+}
+
+/*=====575 px=====*/
+@media screen and (max-width: 575.98px) {
+    #mainSlider .mainSlider-wrapper {
+        height: 350px;
+    }
+    #experiences .experiences-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 50px 0px;
+    }
+    #aboutOur .aboutOur-wrapper{
+        grid-template-columns: 1fr;
+        grid-gap: 50px 0;
+        text-align: center;
+    }
+    #repair h2{
+        font-size: 300%;
+    }
+    #repair .repair-item h3{
+        font-size: 200%;
+    }
+}
+
+/*=====480 px=====*/
+@media screen and (max-width: 480.98px) {
+    #mainSlider .mainSlider-wrapper {
+        height: 300px;
+    }
+    #services .services-item .img-box {
+        width: 20%;
+        margin: auto;
+    }
+}
+
+/*=====414 px=====*/
+@media screen and (max-width: 414.98px) {
+    body {
+        font-size: 8px !important;
+    }
+
+    .tie {
+        padding: 5px;
+    }
+    #services .services-item .img-box i{
+        font-size: 930%;
+    }
+}
+@media screen and (max-width: 375.98px) {
+    body {
+        font-size: 8px !important;
+    }
+
+    #services .services-item .img-box {
+        width: 25%;
+        margin: auto;
+    }
+    #services .services-item .img-box i{
+        font-size: 900%;
+    }
+}
+
+    /*=====332 px=====*/
+    @media screen and (max-width:332.98px) {
+        body {
+            font-size: 7px !important;
+        }
+        #services .services-item .img-box{
+            width: 28%;
+            margin: auto;
+        }
+        #services .services-item .img-box i{
+            font-size: 1000%;
+        }
+    }
+
+    /*=====320 px=====*/
+    @media screen and (max-width:320.98px) {}
+
+    /*=====240 px=====*/
+    @media screen and (max-width:240.98px) {
+        #mainSlider .mainSlider-wrapper {
+            height: 200px;
+        }
+        #services .services-item .img-box{
+            width: 40%;
+            margin: auto;
+        }
+        
+    }
+

@@ -1,0 +1,307 @@
+#mainSlider {
+    width: 100%;
+    z-index: -1;
+}
+
+#mainSlider .mainSlider-wrapper {
+    width: 100%;
+    height: 530px;
+    overflow: hidden;
+}
+#mainSlider .mainSlider-wrapper div{
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.side{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+.slick-slider button{
+    /* display: none !important; */
+}
+.slick-next {
+    right: 2%;
+    top: 55%;
+}
+.slick-prev {
+    left: 2%;
+    z-index: 1;
+    top: 55%;
+}
+/*************************/
+
+#navbar{
+    width: 100%;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9 !important;
+    background: rgba(238, 238, 238, 0.815);
+}
+#navbar .navbar-wrapper{
+    display: grid;
+    grid-template-columns: 250px 2fr 1fr;
+    grid-auto-rows: 60px;
+}
+#navbar .navbar-wrapper .logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#navbar .navbar-wrapper .logo .img{
+    width: 65%;
+}
+#navbar .navbar-wrapper .menus{
+    display: grid;
+    align-content: center;
+}
+#navbar .navbar-wrapper .menus ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar .navbar-wrapper .menus ul li span{
+    font-size: 140%;
+    color: #524444;
+    font-weight: 600;
+    height: 60px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+#navbar .navbar-wrapper .menus ul li:hover{
+    border-bottom:3px solid #EEA200;
+}
+#navbar .navbar-wrapper .menus ul li span:hover{
+    color:#EEA200;
+}
+#navbar .navbar-wrapper .mobile-menus{
+    display: none;
+}
+#navbar .navbar-wrapper .bar-icon .open{
+    float: right;
+    font-size: 300%;
+    color: #F9951D;
+    cursor: pointer;
+}
+#navbar .navbar-wrapper .mobile{
+    display: none;
+}
+#navbar .navbar-wrapper .bar-icon{
+    display: none;
+}
+
+#navbar .navbar-wrapper .mobile{
+    /* z-index: 99999; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 20px;
+}
+#navbar .navbar-wrapper .mobile .close{
+    font-size: 300%;
+    color: #545454;
+    display: block;
+    width: 30px;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 30px;
+}
+#navbar .navbar-wrapper .mobile .mobile-overlay ul li{
+    margin: 15px 0;
+    text-align: center;
+}
+#navbar .navbar-wrapper .mobile .mobile-overlay ul li span{
+    font-size: 200%;
+    text-transform: uppercase;
+}
+#navbar .navbar-wrapper .mobile .mobile-overlay ul li span:focus{
+    color: red;
+}
+/*************************/
+#services{
+    width: 100%;
+    background: #262626;
+    padding: 50px 0;
+}
+#services h2{
+    padding-bottom: 10px;
+}
+#services .services-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+}
+#services .services-item{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+#services .services-item .img-box img{
+    background: #EEA200;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+}
+#services .services-item .img-box i{
+    font-size: 680%;
+    color: #fff;
+    background: #EEA200;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 10px;
+}
+#services .services-item .info-box h3{
+    font-size: 200%;
+    text-transform: capitalize;
+    color: #fff;
+    font-family: 'Patua One', cursive;
+}
+#services .services-item .info-box p{
+    font-size: 130%;
+    text-transform: capitalize;
+    color: #fff;
+    margin: 5px 0;
+}
+/*********************/
+#experiences{
+    width: 100%;
+    height: 100%;
+    background-image:url('../../imges/home_mechanic_video.jpg');background-size:cover;
+    background-position:center;
+    background-attachment: fixed;
+    color:#fff;
+    padding: 100px 0;
+}
+#experiences .experiences-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+#experiences h3{
+    text-align: center;
+    font-size: 450%;
+    padding-bottom: 30px;
+    font-family: 'Patua One', cursive;
+}
+#experiences .experiences-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#experiences .experiences-item span{
+    font-size: 800%;
+    color: #EEA200;
+    display: block;
+}
+#experiences .experiences-item h4{
+    font-size: 200%;
+    color: #fff;
+    font-family: 'Patua One', cursive;
+}
+#experiences .experiences-item hr{
+    width: 30%;
+    margin: 15px 0;
+    color: #222;
+}
+#experiences .experiences-item p{
+    font-size: 140%;
+}
+/*****************************/
+#aboutOur{
+    width: 100%;
+    padding: 30px 0;
+    background:#B2B2B2;
+}
+#aboutOur .aboutOur-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-gap: 10px;
+}
+#aboutOur .aboutOur-item h3{
+    font-size: 250%;
+    text-transform: capitalize;
+    color: #444444;
+    font-family: 'Patua One', cursive;
+}
+#aboutOur .aboutOur-item p{
+    font-size: 150%;
+    line-height: 25px;
+    text-transform: capitalize;
+    color:#6C6C6C;
+    padding: 15px 0;
+}
+#aboutOur .aboutOur-item button{
+    font-size: 130%;
+    text-transform: capitalize;
+    color:#fff;
+    background:#6C6C6C;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    box-shadow: inset 0 0 2px 2px #888888;
+}
+#aboutOur .aboutOur-item button:hover{
+    background:#888888;
+}
+/*****************************/
+#repair{
+    width: 100%;
+    background:#262626;
+    padding: 50px 0;
+    color: #fff;
+}
+#repair .heading-2 h2{
+    padding-bottom: 20px;
+}
+#repair .repair-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 350px;
+    grid-gap: 25px;
+}
+#repair .repair-item h3{
+    font-size: 300%;
+    font-family: 'Patua One', cursive;
+}
+#repair .repair-item p{
+    font-size: 150%;
+    line-height: 23px;
+    padding-top: 10px;
+}
+/******************************/
+#footer{
+    width: 100%;
+    height: 100px;
+    background:#545454;
+}
+#footer .footer-item{
+    width: 100%; 
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-item p{
+    font-size: 150%;
+    color:#B2B2B2;
+}
